@@ -79,14 +79,7 @@ function OurTeam() {
                 </ul>
               </AnimatedItem>
 
-              <AnimatedItem className="animate-item" style={{ transitionDelay: "0.2s" }}>
-                <p>
-                  <strong>Equity:</strong> {member.equity} <br />
-                  <strong>Race:</strong> {member.race} <br />
-                  <strong>Gender:</strong> {member.gender} <br />
-                  {member.age && <><strong>Age:</strong> {member.age}</>}
-                </p>
-              </AnimatedItem>
+              
             </AnimatedItem>
           ))}
         </div>
