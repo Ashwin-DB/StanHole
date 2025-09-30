@@ -78,8 +78,6 @@ function OurTeam() {
                   ))}
                 </ul>
               </AnimatedItem>
-
-              
             </AnimatedItem>
           ))}
         </div>
