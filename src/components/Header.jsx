@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import profilePic from '../assets/stanhole_logo.jpg';
+import profilePic from '../assets/stanhole_logo_1.jpg';
 
 function Header() {
   const [menuActive, setMenuActive] = useState(false);
@@ -43,7 +43,7 @@ function Header() {
           <a href="#home">
             <img src={profilePic} alt="logo" className="logo-img" />
           </a>
-          <a href="#home" className="logo">STANHOLE TRADING & PROJECTS</a>
+          {/*<a href="#home" className="logo">STANHOLE TRADING & PROJECTS</a>*/}
         </div>
 
         <div
